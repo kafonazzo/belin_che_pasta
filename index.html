@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ristorante - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="icon" href="belin_logo.jpg" type="image/png">
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- Navbar -->
+    <header id="navbar" class="navbar">
+        <div class="container">
+            <img src="belin_logo.jpg" alt="Logo" class="logo" />
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <nav id="nav-links" class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menù</a>
+                <a href="contatti.html">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carosello -->
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="slide active">
+                <img src="https://media.istockphoto.com/id/1136814342/it/foto/deliziosi-spaghetti-serviti-su-un-piatto-nero.jpg?s=612x612&w=0&k=20&c=BaE6ajUy4OjA0IuUnK4QDUNC2uAHiMe8iTqDMFStXPU=" alt="Pasta italiana">
+            </div>
+            <div class="slide">
+                <img src="https://media.istockphoto.com/id/2182121380/it/foto/pasta-alla-carbonara-sul-bancone-in-una-cucina-commerciale.jpg?s=612x612&w=0&k=20&c=zFOjzbt_UPXj6URawzXS0PtLTP0I6vQlwvKvWlBnL98=" alt="Anatra fritta">
+            </div>
+            <div class="slide">
+                <img src="https://media.istockphoto.com/id/519078301/it/foto/cucina-italiana-spaghetti-alle-vongole.jpg?s=612x612&w=0&k=20&c=ODqwEjnSU5N-F3og6Q46OuVM3-at68kmFHhEBaCOrRk=" alt="Bistecca di manzo">
+            </div>
+        </div>
+        <div class="carousel-overlay-text">Ristorante Belin che Pasta</div>
+    </section>
+
+    <!-- Descrizione -->
+    <main>
+        <section class="descrizione">
+            <div class="riga">
+                <div class="testo">
+                    <h2>Benvenuti al Ristorante Belin che Pasta</h2>
+                    <p>Nel cuore della tradizione gastronomica italiana, il Ristorante Belin che Pasta offre un’esperienza unica fatta di sapori autentici, ingredienti freschi e passione per la cucina. Ogni piatto racconta una storia, ogni ingrediente è scelto con cura.</p>
+                </div>
+            </div>
+            <div class="riga inversa">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="Sala ristorante elegante">
+                <div class="testo">
+                    <h2>Eleganza e Accoglienza</h2>
+                    <p>Un ambiente raffinato ma familiare, perfetto per cene romantiche, eventi o semplici serate in compagnia. Il nostro staff ti accoglierà con professionalità e un sorriso, per farti sentire sempre a casa.</p>
+                </div>
+            </div>
+            <div class="riga">
+                <img src="https://media.istockphoto.com/id/1446478827/it/foto/uno-chef-sta-cucinando-nella-cucina-del-suo-ristorante.jpg?s=612x612&w=0&k=20&c=2TZGrqU7TAPMOtEVU-lRGRRlA-V663jHgobpI2H4FOI=" alt="Chef al lavoro">
+                <div class="testo">
+                    <h2>La nostra cucina</h2>
+                    <p>Dalla pasta fresca fatta a mano ai dolci della casa, ogni piatto è preparato al momento, con prodotti stagionali e locali. Offriamo anche un’ampia carta dei vini per accompagnare al meglio ogni portata.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Mappa -->
+    <section class="mappa">
+        <h2>Ci trovi qui 📍</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.7138720868625!2d8.350744476650755!3d44.171756618737525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d2fb2927a8266d%3A0xff40ba6c0c65d8c7!2sBelin%20che%20Pasta*21!5e0!3m2!1sit!2sit!4v1753357950715!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Sezione Social -->
+    <section class="social-section">
+        <h2>Seguici sui social</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/tuapagina" target="_blank" aria-label="Facebook">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/tuapagina" target="_blank" aria-label="Instagram">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+            </a>
+            <a href="https://www.tripadvisor.it/YourPage" target="_blank" aria-label="Tripadvisor">
+                <img src="https://cdn-icons-png.flaticon.com/128/2504/2504944.png" alt="Tripadvisor" />
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ristorante Belin che Pasta - Tutti i diritti riservati - Realizzato da Fabio Merello</p>
+    </footer>
+
+</div>
+</body>
+</html>
